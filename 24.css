@@ -1,0 +1,21 @@
+#hello {
+    color: blue;
+    text-align: center;
+}
+#goodbye {
+    color: blue;
+    text-align: center;
+}
+body {
+    font-family:'Courier New', Courier, monospace;
+    background-color: rgb(45, 44, 44);
+}
+#hashd {
+    color: blue;
+}
+#eng {
+    color: azure;
+}
+li {
+    color: brown;
+}
