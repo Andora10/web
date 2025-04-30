@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Myfile</title>    
+    
+</head>
+<body>
+    <form action="/submit" method="post"> <!-- name, email, password inputs -->
+        <label for="name">Name</label> 
+        <input type="text" id="name" name="name" required>
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email">
+        <label for="password">password</label>
+        <input type="password" name="password" id="password">
+        <label for="Message">Message</label>
+    </form>
+    <textarea name="message" id="message" rows="5" cols="20"></textarea> <!-- Поле для ввода текста -->
+    <form action="/submit" method="post">
+        <label for="country">Countries</label>
+        <select name="country" id="country" required> <!-- Список для выбора -->
+            <option value="">Select your country</option>
+            <option value="Kz">Kazakhstan</option>
+            <option value="Rus">Russia</option>
+            <option value="Turk">Turkey</option>
+            <option value="US">Unitesd States</option>
+        </select>
+    </form>
+    <button type="submit">Submit</button> <!-- Кнопка для оптправки -->
+    <button type="reset">Reset</button> <!-- Кнопка для ресета -->
+</body>
+</html>
