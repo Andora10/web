@@ -1,0 +1,24 @@
+#input:hover {
+    background-color: gray;
+}
+#button:focus {
+    border-color: brown;
+}
+#parent:first-child {
+    font-family: bold;
+}
+.list-items:last-child {
+    color: goldenrod;
+}
+.yellow:hover {
+    color: yellow;
+}
+#grenn:focus {
+    background-color: green;
+}
+.list:first-child:focus {
+    color: red;
+}
+.list:last-child:hover {
+    color: blueviolet;
+}
