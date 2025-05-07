@@ -1,0 +1,25 @@
+h1 {
+    position: static;
+    color: black;
+}
+h2 {
+    position: relative;
+    color: red;
+    top: 20px;
+    left: 3cm;
+}
+h3 {
+    position: absolute;
+}
+#abs {
+    position: absolute;
+}
+h4 {
+    position: fixed;
+    bottom: 1cm;
+    right: 1cm;
+}
+#sticj {
+    position: sticky;
+    background-color: aquamarine;
+}
