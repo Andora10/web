@@ -1,0 +1,18 @@
+.block {
+    background-color: lightcoral;
+}
+#linebl {
+    background-color: brown;
+    display: inline;
+}
+#span {
+    display: block;
+}
+#divv {
+    background-color: red;
+    margin: auto;
+    padding: 1cm;
+}
+#aa {
+    display: block;
+}
