@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #hello {
     color: blue;
     text-align: center;
@@ -18,4 +19,26 @@ body {
 }
 li {
     color: brown;
+=======
+#hello {
+    color: blue;
+    text-align: center;
+}
+#goodbye {
+    color: blue;
+    text-align: center;
+}
+body {
+    font-family:'Courier New', Courier, monospace;
+    background-color: rgb(45, 44, 44);
+}
+#hashd {
+    color: blue;
+}
+#eng {
+    color: azure;
+}
+li {
+    color: brown;
+>>>>>>> 211d89b2afa283dc68e03d93a3fba5b3db1a533f
 }

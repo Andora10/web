@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .flex {
     display: flex;
     flex-direction: column;
@@ -105,4 +106,113 @@
     background-color: lightgreen;
     border: 1px solid black;
     padding: 50px;
+=======
+.flex {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+.flex_item {
+    padding: 10px;
+    background-color: lightblue;
+    border: 1px solid black;
+}
+.flex_flow {
+    flex-flow: column-reverse wrap;
+    background-color: lightcoral;
+}
+.flexx {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.grow {
+    flex-grow: 1;
+    background-color: blue;
+    width: 5cm;
+    height: 3cm;
+    border: 1px solid red;
+}
+.shrink {
+    flex-shrink: 1;
+    flex-grow: 1;
+    background-color: yellow;
+    width: 5cm;
+    height: 3cm;
+    border: 1px solid white;
+}
+.basis {
+    flex-basis: 100px 50px;
+    background-color: brown;
+}
+.block {
+    display: block;
+    align-items: center;
+}
+.block_item {
+    background-color: lightgreen;
+}
+.inline {
+    display: inline;
+    background-color: lightsalmon;
+
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navigation {
+    padding: 30px;
+    border: 1px solid black;
+    color: white;
+    background-color: gray;
+    flex-grow: 1;
+}
+.round {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding: 10px;
+}
+.fifty {
+    width: 50%;
+    background-color: lightblue;
+
+}
+.growing {
+    flex-grow: 1;
+    background-color: lightgreen;
+
+}
+.basic {
+    flex-basis: 100px;
+    background-color: lightcoral;
+}
+.gallery {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.items {
+    flex-grow: 1;
+    background-color: lightblue;
+    border: 1px solid black;
+    padding: 50px;
+}
+.itemss {
+    flex-shrink: 1;
+    background-color: lightcoral;
+    border: 1px solid black;
+    padding: 50px;
+}
+.itemsss {
+    flex-basis: 20px;
+    background-color: lightgreen;
+    border: 1px solid black;
+    padding: 50px;
+>>>>>>> 211d89b2afa283dc68e03d93a3fba5b3db1a533f
 }

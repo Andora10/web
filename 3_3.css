@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .block {
     background-color: lightcoral;
 }
@@ -15,4 +16,23 @@
 }
 #aa {
     display: block;
+=======
+.block {
+    background-color: lightcoral;
+}
+#linebl {
+    background-color: brown;
+    display: inline;
+}
+#span {
+    display: block;
+}
+#divv {
+    background-color: red;
+    margin: auto;
+    padding: 1cm;
+}
+#aa {
+    display: block;
+>>>>>>> 211d89b2afa283dc68e03d93a3fba5b3db1a533f
 }

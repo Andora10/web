@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #bluetext {
     color: blue;
 }
@@ -38,4 +39,46 @@
     height: 100px;
     border: 60px solid green;
     overflow: scroll;
+=======
+#bluetext {
+    color: blue;
+}
+#big {
+    font-size: large;
+}
+#center {
+    text-align: center;
+}
+#boldtext {
+    font-weight: bold;
+}
+#brown {
+    background-color: brown;
+    width: 100px;
+    height: 100px;
+}
+#img {
+    background-image: url(logo.jpg);
+    width: 150px;
+    height: 150px;
+}
+#padding {
+    background-color: aqua;
+    padding: 35px;
+    width: 100px;
+    height: 100px;
+}
+#margin {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    margin: 50px;
+}
+#border {
+    background-color: black;
+    width: 100px;
+    height: 100px;
+    border: 60px solid green;
+    overflow: scroll;
+>>>>>>> 211d89b2afa283dc68e03d93a3fba5b3db1a533f
 }

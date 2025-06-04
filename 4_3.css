@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .static {
     position: static;
     color: black;
@@ -31,3 +32,38 @@ h4 {
     position: sticky;
     background-color: aquamarine;
 }
+=======
+.static {
+    position: static;
+    color: black;
+    width: 50px;
+    height: 50px;
+    background-color: lightblue;
+}
+.relative {
+    position: relative;
+    color: red;
+    top: 20px;
+    left: 3cm;
+    width: 4cm;
+    height: 2cm;
+    background-color: lightgreen;
+}
+.absolute {
+    position: absolute;
+    background-color: lightcoral;
+    height: 2cm;
+    width: 2cm;
+    left: 30px;
+    top: 60px;
+}
+h4 {
+    position: fixed;
+    bottom: 1cm;
+    right: 1cm;
+}
+#sticj {
+    position: sticky;
+    background-color: aquamarine;
+}
+>>>>>>> 211d89b2afa283dc68e03d93a3fba5b3db1a533f
