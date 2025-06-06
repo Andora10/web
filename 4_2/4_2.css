@@ -1,4 +1,324 @@
-<<<<<<< HEAD
+
+* {
+    margin: 0;
+    padding: 0;
+}
+.div14 {
+    width: 1440px;
+    background-color: #141414;
+    align-self: center;
+    margin: auto;
+}
+body {
+    color: white;
+    background-color: black;
+}
+.dm-sans-body {
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+header {
+    padding: 40px 50px 10px 50px;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo {
+    width: 160px;
+    height: 33px;
+}
+.menu {
+    display: flex;
+    gap: 40px;
+    list-style-type: none;
+}
+.menu a {
+    color: white;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 17px;
+}
+.menu a:hover {
+    color: #118DA8;
+}
+.main {
+    display: flex;
+    justify-content: space-between;
+    padding: 60px;
+}
+.content {
+    padding-top: 10cm;
+    padding-right: 5cm;
+}
+.content h2 {
+    width: 700;
+    font-size: 70px;
+}
+.content b {
+    font-size: 80px;
+}
+.content p {
+    padding-top: 65px;
+}
+.epis {
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.epis h2 {
+    width: 400;
+    font-size: 64px;
+}
+.epis button {
+    background-color: #118DA8;
+    color: #FFFFFF;
+    width: 178px;
+    height: 51px;
+    border: #118DA8;
+    border-radius: 5px;
+}
+.episodes {
+    padding-left: 50px;
+    padding-top: 50px;
+}
+.episode {
+    width: 1300px;
+    height: 545px;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    border-radius: 20px;
+    padding: 40px;
+    padding-bottom: 5px;
+}
+.episode img {
+    padding: 10px;
+    width: 389px;
+    height: 465px;
+}
+.episode button {
+    width: 208px;
+    height: 51px;
+}
+.title {
+    background-color: #141414;
+    width: 73px;
+    height: 27px;
+    border-radius: 6px;
+    margin-left: 30px;
+}
+.title span {
+    width: 400;
+    font-size: 18px;
+    padding-left: 15px;
+}
+.title2 {
+    background-color: #141414;
+    width: 136px;
+    height: 27px;
+    border-radius: 6px;
+    margin-left: 30px;
+}
+.title2 span {
+    padding-left: 20px;
+}
+.number {
+    padding-top: 50px;
+    padding-left: 30px;
+    width: 400;
+    font-size: 17px;
+    color: #118DA8;
+}
+.text h2 {
+    padding-top: 30px;
+    width: 400;
+    font-size: 64px;
+    padding-left: 30px;
+}
+.reason {
+    padding-top: 20px;
+    padding-left: 30px;
+    width: 400;
+    font-size: 22px;
+}
+.text button {
+    margin-top: 45px;
+    margin-left: 30px;
+    width: 400;
+    font-size: 18px;
+    background-color: #118DA8;
+    border-color: #118DA8;
+    border-radius: 10px;
+    color: #FFFFFF;
+}
+.episodes2 {
+    padding-top: 50px;
+}
+.episode2 {
+    width: 1300px;
+    height: 512px;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    border-radius: 20px;
+    padding: 40px;
+    padding-bottom: 5px;
+}
+
+.episode2 img {
+    padding: 10px;
+    width: 389px;
+    height: 432px;
+}
+.episode2 button {
+    width: 208px;
+    height: 51px;
+}
+.jacob {
+    display: flex;
+    padding-top: 400px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.go {
+    width: 112px;
+    height: 112px;
+    border-radius: 50%;
+    background-color: #118DA8;
+    border-color: #118DA8;
+}
+.host {
+    padding-top: 150px;
+}
+.person {
+    padding-right: 50px;
+}
+.meet {
+    width: 400;
+    font-size: 18px;
+    color: #118DA8;
+    padding-top: 40px;
+}
+
+.host h2 {
+    width: 400;
+    font-size: 65px;
+    padding-top: 20px;
+}
+.desc {
+    width: 400;
+    font-size: 22px;
+    padding-top: 20px;
+}
+.email {
+    background-color: black;
+    width: 1300px;
+    height: 387px;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    padding-top: 80px;
+    margin-top: 250px;
+    border-radius: 32px;
+}
+.texte p {
+    color: #118DA8;
+    font-size: 18px;
+    width: 400;
+    white-space: nowrap;
+}
+.texte h2 {
+    font-size: 72px;
+    white-space: nowrap;
+}
+.submit {
+    color: white;
+    background-color: #191919;
+    width: 522px;
+    height: 82px;
+    font-size: 24px;
+    font-weight: 400;
+    padding-left: 30px;
+    margin-left: 350px;
+    border-radius: 6px;
+    border-color: #191919;
+    margin-top: 20px;
+}
+.b {
+    width: 87px;
+    height: 48px;
+    background-color: #118DA8;
+    border-radius: 6px;
+    border-color: #118DA8;
+    color: white;
+    margin-top: 30px;
+    margin-left: 350px;
+}
+.reviews {
+    margin-top: 150px;
+}
+.rev3 {
+    display: flex;
+    justify-content: space-evenly;
+}
+.review {
+    background-color: black;
+    width: 423px;
+    height: 321px;
+    border-radius: 32px;
+    margin-top: 50px;
+}
+.star {
+    padding-left: 40px;
+    padding-top: 40px;
+}
+.review h2 {
+    font-size: 32px;
+    padding-top: 20px;
+    padding-left: 40px;
+}
+.review p {
+    font-size: 24px;
+    padding-top: 20px;
+    padding-left: 40px;
+}
+
+.end {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 200px;
+    align-items: flex-start;
+}
+.icons {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.sm {
+    padding-top: 20px;
+}
+.menu2 {
+    list-style-type: none;
+}
+.menu2 li {
+    margin: 20px 0;
+}
+.menu2 a {
+    color: white;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 17px;
+    gap: 20px;
+}
+.menu2 a:hover {
+    color: #118DA8;
+
 * {
     margin: 0;
     padding: 0;
@@ -312,319 +632,4 @@ nav {
 }
 .menu2 a:hover {
     color: #118DA8;
-=======
-* {
-    margin: 0;
-    padding: 0;
-}
-body {
-    color: white;
-    background-color: #141414;
-}
-.dm-sans-body {
-  font-family: "DM Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-}
-header {
-    padding: 40px 50px 10px 50px;
-}
-nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-.logo {
-    width: 160px;
-    height: 33px;
-}
-.menu {
-    display: flex;
-    gap: 40px;
-    list-style-type: none;
-}
-.menu a {
-    color: white;
-    text-decoration: none;
-    font-weight: 400;
-    font-size: 17px;
-}
-.menu a:hover {
-    color: #118DA8;
-}
-.main {
-    display: flex;
-    justify-content: space-between;
-    padding: 60px;
-}
-.content {
-    padding-top: 10cm;
-    padding-right: 5cm;
-}
-.content h2 {
-    width: 700;
-    font-size: 70px;
-}
-.content b {
-    font-size: 80px;
-}
-.content p {
-    padding-top: 65px;
-}
-.epis {
-    padding: 50px;
-    display: flex;
-    justify-content: space-between;
-}
-.epis h2 {
-    width: 400;
-    font-size: 64px;
-}
-.epis button {
-    background-color: #118DA8;
-    color: #FFFFFF;
-    width: 178px;
-    height: 51px;
-    border: #118DA8;
-    border-radius: 5px;
-}
-.episodes {
-    padding-left: 50px;
-    padding-top: 50px;
-}
-.episode {
-    width: 1300px;
-    height: 545px;
-    display: flex;
-    justify-content: space-between;
-    background-color: black;
-    border-radius: 20px;
-    padding: 40px;
-    padding-bottom: 5px;
-}
-.episode img {
-    padding: 10px;
-    width: 389px;
-    height: 465px;
-}
-.episode button {
-    width: 208px;
-    height: 51px;
-}
-.title {
-    background-color: #141414;
-    width: 73px;
-    height: 27px;
-    border-radius: 6px;
-    margin-left: 30px;
-}
-.title span {
-    width: 400;
-    font-size: 18px;
-    padding-left: 15px;
-}
-.title2 {
-    background-color: #141414;
-    width: 136px;
-    height: 27px;
-    border-radius: 6px;
-    margin-left: 30px;
-}
-.title2 span {
-    padding-left: 20px;
-}
-.number {
-    padding-top: 50px;
-    padding-left: 30px;
-    width: 400;
-    font-size: 17px;
-    color: #118DA8;
-}
-.text h2 {
-    padding-top: 30px;
-    width: 400;
-    font-size: 64px;
-    padding-left: 30px;
-}
-.reason {
-    padding-top: 20px;
-    padding-left: 30px;
-    width: 400;
-    font-size: 22px;
-}
-.text button {
-    margin-top: 45px;
-    margin-left: 30px;
-    width: 400;
-    font-size: 18px;
-    background-color: #118DA8;
-    border-color: #118DA8;
-    border-radius: 10px;
-    color: #FFFFFF;
-}
-.episodes2 {
-    padding-top: 50px;
-}
-.episode2 {
-    width: 1300px;
-    height: 512px;
-    display: flex;
-    justify-content: space-between;
-    background-color: black;
-    border-radius: 20px;
-    padding: 40px;
-    padding-bottom: 5px;
-}
-
-.episode2 img {
-    padding: 10px;
-    width: 389px;
-    height: 432px;
-}
-.episode2 button {
-    width: 208px;
-    height: 51px;
-}
-.jacob {
-    display: flex;
-    padding-top: 400px;
-    justify-content: space-between;
-    align-items: center;
-}
-
-
-.go {
-    width: 112px;
-    height: 112px;
-    border-radius: 50%;
-    background-color: #118DA8;
-    border-color: #118DA8;
-}
-.host {
-    padding-top: 150px;
-}
-.person {
-    padding-right: 50px;
-}
-.meet {
-    width: 400;
-    font-size: 18px;
-    color: #118DA8;
-    padding-top: 40px;
-}
-
-.host h2 {
-    width: 400;
-    font-size: 65px;
-    padding-top: 20px;
-}
-.desc {
-    width: 400;
-    font-size: 22px;
-    padding-top: 20px;
-}
-.email {
-    background-color: black;
-    width: 1300px;
-    height: 387px;
-    display: flex;
-    justify-content: space-between;
-    padding: 40px;
-    padding-top: 80px;
-    margin-top: 250px;
-    border-radius: 32px;
-}
-.texte p {
-    color: #118DA8;
-    font-size: 18px;
-    width: 400;
-    white-space: nowrap;
-}
-.texte h2 {
-    font-size: 72px;
-    white-space: nowrap;
-}
-.submit {
-    color: white;
-    background-color: #191919;
-    width: 522px;
-    height: 82px;
-    font-size: 24px;
-    font-weight: 400;
-    padding-left: 30px;
-    margin-left: 350px;
-    border-radius: 6px;
-    border-color: #191919;
-    margin-top: 20px;
-}
-.b {
-    width: 87px;
-    height: 48px;
-    background-color: #118DA8;
-    border-radius: 6px;
-    border-color: #118DA8;
-    color: white;
-    margin-top: 30px;
-    margin-left: 350px;
-}
-.reviews {
-    margin-top: 150px;
-}
-.rev3 {
-    display: flex;
-    justify-content: space-evenly;
-}
-.review {
-    background-color: black;
-    width: 423px;
-    height: 321px;
-    border-radius: 32px;
-    margin-top: 50px;
-}
-.star {
-    padding-left: 40px;
-    padding-top: 40px;
-}
-.review h2 {
-    font-size: 32px;
-    padding-top: 20px;
-    padding-left: 40px;
-}
-.review p {
-    font-size: 24px;
-    padding-top: 20px;
-    padding-left: 40px;
-}
-
-.end {
-    display: flex;
-    justify-content: space-around;
-    padding-top: 200px;
-    align-items: flex-start;
-}
-.icons {
-    padding-top: 20px;
-    display: flex;
-    flex-direction: column;
-}
-.sm {
-    padding-top: 20px;
-}
-.menu2 {
-    list-style-type: none;
-}
-.menu2 li {
-    margin: 20px 0;
-}
-.menu2 a {
-    color: white;
-    text-decoration: none;
-    font-weight: 400;
-    font-size: 17px;
-    gap: 20px;
-}
-.menu2 a:hover {
-    color: #118DA8;
->>>>>>> 211d89b2afa283dc68e03d93a3fba5b3db1a533f
-}
+}}

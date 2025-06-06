@@ -1,0 +1,128 @@
+.raleway-body {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+body {
+    background-color: white;
+}
+.header {
+    background-color: #E1EDE6;
+    display: flex;
+    align-items: center;
+    width: 1440px;
+    height: 100px;
+}
+.header img {
+    margin-left: 150px;
+}
+
+.head {
+    display: flex;
+    gap: 60px;
+    list-style-type: none;
+    padding-left: 500px;
+}
+
+.head a {
+    color: #2C2D35;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 17px;
+}
+.replic {
+    display: flex;
+}
+.replic img {
+    padding-left: 100px;
+}
+.replictext {
+    margin-left: 50px;
+    margin-top: 80px;
+}
+.replictext h2 {
+    font-weight: 500;
+    font-size: 60px;
+}
+.replictext b {
+    color: #598D66;
+}
+.replictext p {
+    color: #86928B;
+    font-weight: 500;
+    font-size: 18px;
+}
+.replictext button {
+    color: #598D66;
+    border: 1px solid #598D66;
+    width: 225px;
+    height: 65px;
+    font-weight: 500;
+    font-size: 20px;
+    background-color: white;
+    margin-top: 50px;
+}
+.header2 {
+    display: flex;
+}
+.header2 h2 {
+    color: #2C2D35;
+    font-weight: 500;
+    font-size: 40px;
+    padding-left: 110px;
+}
+.buttons {
+    gap: 32px;
+    display: flex;
+    list-style-type: none;
+    margin-top: 40px;
+    margin-left: 450px;
+}
+.buttons button {
+    width: 126px;
+    height: 43px;
+    background-color: #D4E8D9;
+    border-radius: 20px;
+    color: #2C2D35;
+    font-weight: 500s;
+    font-size: 20px;
+}
+.buttons button:hover {
+    background-color: #376B44;
+    color: white;
+}
+.product3 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto;
+    gap: 30px;
+    justify-content: center;
+}
+.product {
+    background-color: #E1EDE6;
+    width: 350px;
+    height: 750px;
+}
+.product img {
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.author {
+    color: #86928B;
+    font-weight: 500;
+    font-size: 18px;
+    padding-left: 20px;
+}
+.product h2 {
+    color: #2C2D35;
+    font-weight: 500;
+    font-size: 30px;
+    padding-left: 20px;
+}
+.desc {
+    color: #2C2D35;
+    font-weight: 500;
+    font-size: 18px;
+    padding-left: 20px;
+}
