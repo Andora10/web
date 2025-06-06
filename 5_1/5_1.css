@@ -23,6 +23,8 @@
 .set {
     width: 380px;
     height: 582px;
+    border: #C2C6D00F solid 1px;
+    box-shadow: 2px 8px 16 #C2C6D00F;
 }
 .set button {
     width: 163px;
